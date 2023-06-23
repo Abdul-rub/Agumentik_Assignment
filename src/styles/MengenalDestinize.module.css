@@ -1,0 +1,89 @@
+.container {
+    margin: 60px;
+    max-width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary {
+    color: #4475F2;
+}
+
+.flexImages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 40px;
+  }
+  
+  .divImage1 {
+    width: 30%;
+  }
+  
+  .box1 {
+    width: 100%;
+    object-fit: cover;
+    height: 202px;
+    border-radius: 8px;
+  }
+  
+  .divImage2 {
+
+    width: 800px;
+    height: 400px;
+  }
+  
+
+  .divImage2>img{
+    width: 800px;
+    height: 400px;
+  }
+  
+.dateColor {
+    color: #BDBDBD;
+    margin: 20px;
+    font-family: var(--font-family);
+}
+
+.h6content {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.thirdImage {
+    /* position: relative; */
+    height: 250px;
+    margin-top: 40px;
+}
+
+.overlayText {
+    /* position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    z-index: 1;
+    font-family: var(--font-family); */
+    font-family: var(--font-family);
+    color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+
+
+
+
+}
+
+.mountainImage {
+    width: 1196px;
+    height: 205px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 30px;
+
+}

@@ -1,0 +1,162 @@
+/* CSS */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+  --font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1 {
+  font-weight: var(--fw-extra-bold);
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+h2 {
+  font-weight: var(--fw-extra-bold);
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+h3 {
+  font-weight: var(--fw-extra-bold);
+  font-size: 40px;
+  line-height: 84px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+h4 {
+  font-weight: var(--fw-extra-bold);
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+h5 {
+  font-weight: var(--fw-semibold);
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+h6 {
+  font-weight: var(--fw-bold);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.subtitle-1 {
+  font-weight: var(--fw-bold);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.subtitle-2 {
+  font-weight: var(--fw-medium);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.lead-1 {
+  font-weight: var(--fw-normal);
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.lead-2 {
+  font-weight: var(--fw-medium);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.body-1 {
+  font-weight: var(--fw-normal);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.body-2 {
+  font-weight: var(--fw-normal);
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.large-label {
+  font-weight: var(--fw-semibold);
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.medium-label {
+  font-weight: var(--fw-semibold);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.small-label {
+  font-weight: var(--fw-semibold);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.capitalized {
+  font-weight: var(--fw-extra-bold);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-family: var(--font-family);
+}
+
+.badge-label {
+  font-weight: var(--fw-normal);
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-family: var(--font-family);
+}
+
+.simple-text{
+  font-weight: var(--fw-semibold);
+  font-size: 14px;
+  color: #707070;
+}
+
+
